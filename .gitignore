@@ -143,9 +143,9 @@ dist
 /pkg/
 /spec/reports/
 /spec/examples.txt
-/test/tmp/
-/test/version_tmp/
-/tmp/
+test/tmp/
+test/version_tmp/
+tmp/
 
 # Used by dotenv library to load environment variables.
 # .env
@@ -203,14 +203,14 @@ capybara-*.html
 /db/*.sqlite3-[0-9]*
 /public/system
 /coverage/
-/spec/tmp
+spec/tmp
 *.orig
 rerun.txt
 pickle-email-*.html
 
 # Ignore all logfiles and tempfiles.
 /log/*
-/tmp/*
+tmp/*
 !/log/.keep
 !/tmp/.keep
 
