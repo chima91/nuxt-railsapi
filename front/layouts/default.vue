@@ -1,6 +1,7 @@
 <template>
   <v-app dark>
     <div>
+      <Success />
       <Loading />
     </div>
     <v-navigation-drawer
@@ -92,6 +93,7 @@
 </template>
 
 <script>
+import Success from '../components/Success.vue'
 import Loading from '../components/Loading.vue';
 
 export default {
@@ -108,6 +110,7 @@ export default {
     }
   },
   components: {
+    Success,
     Loading
   },
   computed: {
